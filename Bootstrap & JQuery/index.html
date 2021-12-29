@@ -1,0 +1,111 @@
+<!-- Update the code below this comment -->
+<button type="button" class="btn btn-warning" id="btnShowBanana">
+  Show Banana
+</button>
+<button type="button" class="btn btn-success" id="btnShowMonkey">
+  Show Monkey
+</button>
+<button type="button" class="btn btn-warning" id="btnHideBanana">
+  Hide Banana
+</button>
+<button type="button" class="btn btn-success" id="btnHideMonkey">
+  Hide Monkey
+</button>
+<div>
+  <img class="collapse" id="banana" src="https://i.ibb.co/82WT957/banana.png" />
+  <img
+    class="collapse"
+    id="monkey"
+    src="https://i.ibb.co/VJDfnxN/monkey-w-banana.png"
+  />
+</div>
+<!-- Update the code above this comment -->
+<hr />
+<p>
+  This Code Challenge is intended to give you more practice with using jQuery to
+  manipulate Bootstrap components.
+</p>
+<p>
+  For this Code Challenge, you will add code to both the HTML and JS sections of
+  this Codepen. You will not need to update any code in the CSS section.
+</p>
+<h3>Code Challenge</h3>
+<ol>
+  <li>
+    First, add <strong>Bootstrap button classes</strong> to the buttons in the
+    HTML section thus that the buttons have the default Bootstrap button styling
+    and their colors match the given screenshot - the Show Banana and Hide
+    Banana buttons should be yellow, and the Show Monkey and Hide Monkey buttons
+    should be green.
+  </li>
+  <li>
+    Next, add the <strong>"collapse"</strong> class to the img elements for the
+    banana and the monkey in the HTML section. Give both img elements an
+    <strong>id</strong> as well - <strong>"banana"</strong> and
+    <strong>"monkey"</strong>. At this point, both the banana and monkey images
+    should disappear.
+  </li>
+  <li>
+    In the JS section, you will write jQuery, starting with adding the
+    <a href="https://api.jquery.com/ready/" target="_blank"
+      >jQuery ready function/ready method</a
+    >. You have already used the ready function in your Bootstrap course
+    project. Refer back to the
+    <strong>Bootstrap and jQuery Part 1</strong> exercise in your course for a
+    reminder.
+  </li>
+  <li>
+    Inside the ready function, you will add a
+    <strong>jQuery selector</strong> for the button with the id of
+    <strong>"btnShowBanana"</strong>. For an example of how to do this, refer to
+    the <strong>"The #id Selector"</strong> section on
+    <a
+      href="https://www.w3schools.com/jquery/jquery_selectors.asp"
+      target="_blank"
+      >this page</a
+    >, or refer back to the Bootstrap and jQuery Part 1 exercise and look at how
+    you added a jQuery selector for the element with the id of
+    <strong>"carouselPause"</strong>.
+  </li>
+  <li>
+    Bind the jQuery <strong>click</strong> event handler to this selector. Refer
+    to the Bootstrap and jQuery Part 1 exercise once again for an example of how
+    to do this. Inside the event handler, query for the banana img element using
+    its <strong>id</strong>, then attach the
+    <strong>.collapse("show")</strong> method to it.
+  </li>
+  <li>
+    Add three more jQuery click event handlers: one to hide the banana when the
+    "Hide Banana" button is clicked using the
+    <strong>.collapse("hide")</strong> method, then two more to show and hide
+    the monkey img in the same way.
+  </li>
+</ol>
+
+<h3>Resources</h3>
+<ul>
+  <li>
+    <a
+      href="https://getbootstrap.com/docs/4.5/components/buttons/"
+      target="_blank"
+      >Bootstrap - Buttons</a
+    >
+  </li>
+  <li>
+    <a
+      href="https://getbootstrap.com/docs/4.5/components/collapse/#collapseshow"
+      target="_blank"
+      >Bootstrap - Collapse - JavaScript Methods</a
+    >
+  </li>
+  <li>
+    <a href="https://api.jquery.com/ready/" target="_blank"
+      >jQuery ready function</a
+    >
+  </li>
+  <li>
+    <a href="https://api.jquery.com/click/#click-handler" target="_blank"
+      >jQuery click handler</a
+    >
+  </li>
+</ul>
