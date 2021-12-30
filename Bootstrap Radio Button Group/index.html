@@ -1,0 +1,123 @@
+<div class="container-fluid">
+  <form>
+    <div class="form-group row">
+      <label class="col-sm-2 col-form-label">Ice Cream Flavors:</label>
+      <!-- Your code additions will go below here. -->
+      <div class="btn-group btn-group-toggle col-4" data-toggle="buttons">
+        <label class="btn btn-success active">
+          <input
+            type="radio"
+            name="iceCreamFlavor"
+            id="mintchocolate"
+            value="mint chocolate"
+            checked
+          />
+          Mint Chocolate
+        </label>
+        <label class="btn btn-light">
+          <input
+            type="radio"
+            name="iceCreamFlavor"
+            id="vanilla"
+            value="vanilla"
+          />
+          Vanilla
+        </label>
+        <label class="btn btn-danger">
+          <input
+            type="radio"
+            name="iceCreamFlavor"
+            id="strawberry"
+            value="strawberry"
+          />
+          Strawberry
+        </label>
+      </div>
+
+      <!-- Your code additions will go above here. -->
+    </div>
+    <div class="form-group row mx-auto">
+      <button type="button" onclick="order()" class="btn btn-primary">
+        Order
+      </button>
+    </div>
+  </form>
+</div>
+
+<div id="message"></div>
+
+<hr />
+<p>
+  The code you will update for this Code Challenge is inside the HTML section of
+  this Codepen. You are not required to change any code in the JS or CSS
+  sections.
+</p>
+
+<p></p>
+<h3>Code Challenge</h3>
+<ol>
+  <li>
+    You will be adding a button group to the form in the HTML section of this
+    Codepen, using the plugin that is documented
+    <a
+      href="https://getbootstrap.com/docs/4.5/components/buttons/#checkbox-and-radio-buttons"
+      target="_blank"
+      >here</a
+    >. <strong>Read</strong> the documentation, then <strong>copy</strong> the
+    example code for the three radio buttons there. <strong>Paste</strong> the
+    example code to beneath where you see the comment that says
+    <strong>"Your code additions will go below here."</strong>
+  </li>
+  <li>
+    Add the class <strong>col-4</strong> to the
+    <strong>button-group</strong> div (the div element that has the button-group
+    class on it).
+  </li>
+  <li>
+    All radio buttons in a group must have the same <strong>name</strong>. Give
+    all three radio buttons the name of <strong>"iceCreamFlavor"</strong>.
+  </li>
+  <li>
+    All <strong>id</strong>s must be unique. Give them these three ids:
+    <strong>"mintchocolate"</strong>, <strong>"vanilla"</strong>, and
+    <strong>"strawberry"</strong>.
+  </li>
+  <li>
+    Replace the text that follows each of the input elements (Active, Radio,
+    Radio) with this text: <strong>Mint Chocolate</strong>,
+    <strong>Vanilla</strong>, <strong>Strawberry</strong>.
+  </li>
+  <li>
+    Add a <strong>value</strong> attribute for each radio input, with the text
+    <strong>"mint chocolate"</strong>, <strong>"strawberry"</strong>, and
+    <strong>"vanilla"</strong>.
+  </li>
+  <li>
+    Using the <strong>Bootstrap button color classes</strong>, change the colors
+    for each button so that they appear as in the screenshot below.
+  </li>
+  <li>
+    Select each button and click the <strong>"Order"</strong> button, one at a
+    time, to make sure that the text "You have placed an order for ..." appears
+    correctly for each button.
+  </li>
+</ol>
+
+<hr />
+<h3>Resources</h3>
+<ul>
+  <li>
+    <a
+      href="https://getbootstrap.com/docs/4.5/components/buttons/#button-plugin"
+      target="_blank"
+      >Bootstrap Radio/Checkbox Button Group Plugin</a
+    >
+  </li>
+  <li>
+    <a
+      href="https://getbootstrap.com/docs/4.5/components/buttons/#examples"
+      target="_blank"
+      >Bootstrap Button Color Classes</a
+    >
+  </li>
+</ul>
