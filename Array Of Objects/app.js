@@ -67,7 +67,7 @@ console.log(`${planetNumMoonsByName.name}'s number of moons is: ${planetNumMoons
 
 // REDUCE CHALLENGE
 // Use reduce to sum up the total of all moons in our solar system into a variable named moonsTotal.
-const moonsTotal = planets.map(planet => planet.numOfMoons).reduce((a, c) => a + c)
+const moonsTotal = planets.reduce((a, c) => a + c.numOfMoons, 0)
 // The console should say: 185
 console.log(moonsTotal); 
 
