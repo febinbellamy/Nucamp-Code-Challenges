@@ -1,8 +1,3 @@
-import React, { Component } from "react";
-import { FlatList, View } from "react-native";
-import { ListItem, Card, Text } from "react-native-elements";
-import { FILMS } from "../shared/films";
-
 /*
   Your challenges:  
   1. Fix the component by adding a constructor and adding the data imported as FILMS to the component's state
@@ -15,6 +10,14 @@ import { FILMS } from "../shared/films";
   
   Bonus Challenge: Write a custom view in the ListItem subtitle to show more details about each film, such as the release year, genre, language.
 */
+
+// https://snack.expo.dev/@febinbellamy/react-native-code-challenge-week-1
+
+import React, { Component } from "react";
+import { FlatList, View } from "react-native";
+import { ListItem, Card, Text } from "react-native-elements";
+import { FILMS } from "../shared/films";
+
 class FilmCatalogue extends Component {
   constructor(props) {
     super(props);

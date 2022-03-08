@@ -11,6 +11,8 @@ Challenge 8: Along with the link to your saved Snack, write at least 3 sentences
 
 */
 
+// https://snack.expo.dev/@febinbellamy/code-challenge:-rne-rating-component
+
 import * as React from "react";
 import Constants from "expo-constants";
 import { Text, View, StyleSheet, Button } from "react-native";
